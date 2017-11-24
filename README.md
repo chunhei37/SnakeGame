@@ -1,4 +1,4 @@
-<h1>Abandoned</h1>
+<h1>------------Abandoned----------------</h1>
 Maybe fix the bug in future!
 
 # SnakeGame
@@ -10,3 +10,4 @@ It's wriiten in Java with JavaF.
 
 <h1>Known Bugs</h1>
 Animation (cause by Thread)
+<h1>------------Abandoned----------------</h1>
