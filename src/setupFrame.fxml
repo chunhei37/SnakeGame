@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="setupController">
+   <children>
+      <Pane prefHeight="543.0" prefWidth="414.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+            <ImageView fitHeight="260.0" fitWidth="400.0" layoutX="-1.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" scaleY="2.07">
+               <image>
+                  <Image url="@img/back1.png" />
+               </image>
+            </ImageView>
+            <Slider fx:id="playerSlider" layoutX="90.0" layoutY="221.0" majorTickUnit="1.0" max="4.0" min="1.0" minorTickCount="0" prefHeight="25.0" prefWidth="220.0" scaleX="1.2" scaleY="1.6" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+            <Label layoutX="89.0" layoutY="52.0" text="Game SetUp">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+               <effect>
+                  <DropShadow height="6.17" radius="1.0425" width="0.0" />
+               </effect>
+            </Label>
+            <Label layoutX="105.0" layoutY="145.0" text="Player Numbers">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font></Label>
+            <CheckBox fx:id="fillBots" layoutX="89.0" layoutY="291.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="220.0" text="Fill With Bot">
+               <tooltip>
+                  <Tooltip text="If you have 4 players no bot will add to the game." />
+               </tooltip>
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </CheckBox>
+            <Button id="button" fx:id="startGame_btn" layoutX="117.0" layoutY="373.0" mnemonicParsing="false" onAction="#startGame" stylesheets="@button.css" text="Start Game">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+         </children>
+      </Pane>
+   </children>
+</VBox>
