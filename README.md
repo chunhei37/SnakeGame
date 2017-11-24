@@ -1,3 +1,6 @@
+<h1>Abandoned</h1>
+Maybe fix the bug in future!
+
 # SnakeGame
 It's a board game. 
 
